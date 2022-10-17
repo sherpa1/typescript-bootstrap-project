@@ -1,6 +1,6 @@
 # Typescript Bootstrap Project
 
-Projet Typescript pré-configuré (Jest, Nodemon...)
+Projet Typescript pré-configuré.
 
 ## Spécifications techniques
 
@@ -16,27 +16,15 @@ _Les commandes npm ci-dessous doivent toutes être exécutées depuis le répert
 
 `npm install`
 
-### Installation globale de Nodemon pour le Hot Reloading (avant la première utilisation)
+### Transpilation du code TypeScript vers JavaScript dans le dossier './dist/src'
 
-`npm install -g nodemon`
-
-ou
-
-`sudo npm install -g nodemon` (sur systèmes Unix)
+`npm run build`
 
 ### Exécution du programme (code JS déjà transpilé)
 
 `npm start`
 
-### Transpilation du code TypeScript vers JavaScript
-
-`npm run build`
-
-### Transpilation TypeScript vers JavaScript et exécution du programme
-
-`npm run dev`
-
-### Transpilation TypeScript vers JavaScript et exécution du programme avec activation du Hot Reloading (nodemon doit être installé)
+### Transpilation TypeScript vers JavaScript et exécution du programme avec activation du Hot Reloading
 
 `npm run watch`
 
