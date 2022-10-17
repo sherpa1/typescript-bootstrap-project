@@ -1,9 +1,12 @@
-function main(): string {
-    const hello: string = "Hello, World!";
-    return hello;
+function hello_world(): string {
+    return 'Hello, World !';
 }
 
-const result: any = main();
-//console.log(result);
+function main(): void {
+    const result: string = hello_world();
+    console.log(result);
+}
 
-export default main;
+main();
+
+export default hello_world;
