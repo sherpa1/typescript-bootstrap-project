@@ -1,11 +1,11 @@
 {
     "name": "typescript-project-bootstrap",
     "version": "1.0.0",
-    "description": "Projet Typescript pré-configuré (Jest, Nodemon...)",
+    "description": "Projet Typescript pré-configuré",
     "main": "src/main.ts",
     "scripts": {
         "start": "node dist/src/main.js",
-        "watch": "ts-node-dev --respawn",
+        "watch": "ts-node-dev --respawn src/main.ts",
         "build": "tsc",
         "test": "jest"
     },
